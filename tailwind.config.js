@@ -6,6 +6,9 @@ export default {
       spacing: {
         Container: "1600px",
       },
+      backgroundImage: {
+        Banner: "url('./src/assets/images/Homepage/banner.png')",
+      },
     },
   },
   plugins: [],
