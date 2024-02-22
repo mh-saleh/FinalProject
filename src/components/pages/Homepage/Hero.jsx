@@ -5,7 +5,9 @@ import HomepageSearch from "../../../assets/svg/HomepageSearch";
 export default function Main() {
   return (
   <section>  <div className="main-container w-[1696px] h-[732px] relative mx-auto my-0 mt-10 ">
-      <div className="w-[1600px] h-[732px] bg-Banner bg-cover bg-no-repeat absolute top-0 left-0 z-[2] rounded-[30px]">
+      <div  style={{
+      backgroundImage: `url(${ImageOne})`,
+    }}  className="w-[1600px] h-[732px] bg-[ImageOne] bg-cover bg-no-repeat absolute top-0 left-0 z-[2] rounded-[30px]">
         <div className="flex w-[436px] h-[36px] justify-between items-center relative z-[38] mt-[108px] mr-0 mb-0 ml-[136px]">
           <div className="w-[24px] h-[2px] shrink-0 bg-[url(../assets/images/d8554797-1e6c-41ef-8951-5834a8e67b05.png)] bg-cover bg-no-repeat relative z-[37]" />
           <span className="h-[36px] shrink-0 font-['Poppins'] text-[24px] font-normal leading-[36px] text-[#fff] relative text-left whitespace-nowrap z-[38]">
