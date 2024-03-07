@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex justify-between align-middle items-center flex-wrap">
         <div className="flex gap-x-12 flex-wrap">
           <h2 className="text-slate-800 text-[40px] font-semibold font-['Poppins']">
-            Emprise
+            <Link to={"/"}>Emprise</Link>
           </h2>
           <ul className="flex align-middle items-center gap-8">
             <Link to={"/"}>
@@ -44,7 +44,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <button className="duration-500 text-slate-800 text-xl font-normal font-['Poppins'] leading-tight w-[104px] h-12 hover:bg-teal-500 rounded-[28px]">
+          <button className="duration-500 text-slate-800 text-xl font-normal font-['Poppins'] leading-tight w-[104px] h-12 hover:bg-teal-500 rounded-[28px] mr-3">
             Login
           </button>
           <button className="duration-500 text-black text-xl font-normal font-['Poppins'] leading-tight w-[104px] h-12 hover:bg-teal-500  rounded-[28px]">

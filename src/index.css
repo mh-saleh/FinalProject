@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Example CSS */
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.arrow {
+  border: solid #546179;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 9px;
+}
+
+.arrrow:hover .arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 9px;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}
