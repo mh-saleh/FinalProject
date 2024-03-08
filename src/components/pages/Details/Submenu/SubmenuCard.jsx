@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import IconOne from "../../../../assets/images/cartpage/top/One.png";
+import IconTwo from "../../../../assets/images/cartpage/top/Two.png";
+import IconThree from "../../../../assets/images/cartpage/top/Three.png";
+import IconFour from "../../../../assets/images/cartpage/top/Four.png";
+import IconFive from "../../../../assets/images/cartpage/top/Five.png";
+import IconSix from "../../../../assets/images/cartpage/top/Six.png";
 
 const SubmenuCard = () => {
   return (
@@ -42,7 +47,7 @@ const SubmenuCard = () => {
           className={`w-1/6 px-4 py-[18px] rounded-2xl border border-gray-200 flex items-center gap-2 cursor-pointer `}
         >
           <div>
-            <img src={IconOne} alt="" />
+            <img src={IconTwo} alt="" />
           </div>
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
@@ -54,7 +59,7 @@ const SubmenuCard = () => {
           className={`w-1/6 px-4 py-[18px] rounded-2xl border border-gray-200 flex items-center gap-2 cursor-pointer `}
         >
           <div>
-            <img src={IconOne} alt="" />
+            <img src={IconThree} alt="" />
           </div>
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
@@ -66,7 +71,7 @@ const SubmenuCard = () => {
           className={`w-1/6 px-4 py-[18px] rounded-2xl border border-gray-200 flex items-center gap-2 cursor-pointer `}
         >
           <div>
-            <img src={IconOne} alt="" />
+            <img src={IconFour} alt="" />
           </div>
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
@@ -78,7 +83,7 @@ const SubmenuCard = () => {
           className={`w-1/6 px-4 py-[18px] rounded-2xl border border-gray-200 flex items-center gap-2 cursor-pointer `}
         >
           <div>
-            <img src={IconOne} alt="" />
+            <img src={IconFive} alt="" />
           </div>
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
@@ -90,7 +95,7 @@ const SubmenuCard = () => {
           className={`w-1/6 px-4 py-[18px] rounded-2xl border border-gray-200 flex items-center gap-2 cursor-pointer `}
         >
           <div>
-            <img src={IconOne} alt="" />
+            <img src={IconSix} alt="" />
           </div>
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
