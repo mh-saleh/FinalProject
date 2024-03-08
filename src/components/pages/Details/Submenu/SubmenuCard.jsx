@@ -52,7 +52,7 @@ const SubmenuCard = () => {
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
           >
-            Discounted Deals
+            Free Cancellation
           </p>
         </div>
         <div
@@ -64,7 +64,7 @@ const SubmenuCard = () => {
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
           >
-            Discounted Deals
+            Entrada Specials
           </p>
         </div>
         <div
@@ -76,7 +76,7 @@ const SubmenuCard = () => {
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
           >
-            Discounted Deals
+            Few Seats Left
           </p>
         </div>
         <div
@@ -88,7 +88,7 @@ const SubmenuCard = () => {
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
           >
-            Discounted Deals
+            Private Tours
           </p>
         </div>
         <div
@@ -100,7 +100,7 @@ const SubmenuCard = () => {
           <p
             className={`text-base font-normal font-['Poppins'] tracking-wide `}
           >
-            Discounted Deals
+            New on Entrada
           </p>
         </div>
       </div>
