@@ -1,29 +1,45 @@
-import ProductCard from "./components/ProductCard/ProductCard";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
-import Cartpage from "./components/pages/Cartpage/Cartpage";
-import Items from "./assets/ProductList/products";
-import PaginatedItems from "./components/Pagination/PaginatedItems";
-import { useDispatch, useSelector } from "react-redux";
-import Favourite from "./components/pages/Favourite/Favourite";
-import { Route, Routes } from "react-router-dom";
-import Homepage from "./components/pages/Homepage/Homepage";
-import Error from "./components/pages/Error/Error";
+import React from "react";
 
-function App() {
+import ReadMoreLess from "./ReadMoreLess";
+import Comments from "./comments/Comments";
+import Instructions from "./instruction/InstructionsCard";
+
+import ItineraryCard from "./itinerary/ItineraryCard";
+import Itinerary from "./itinerary/Itinerary";
+import OverviewCard from "./overview/OverviewCard";
+import Practice from "./Practice";
+import Overview from "./overview/Overview";
+import FAQ from "./FAQ/FAQCard";
+import DetailTitle from "./DetailsContent/DetailTitle";
+import DetailsLeft from "./DetailsContent/DetailsLeft/DetailsLeft";
+import DetailsDate from "./DetailsContent/DetailsLeft/DetailsDate";
+import Gallery from "./Gallery";
+import DetailsTop from "./DetailsTop";
+import BestSellerSlider from "../Homepage/05.BestSeller/BestSellerSlider";
+
+const Details = () => {
   return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/shop" element={<Cartpage />} />
-        <Route path="/shop#inputSearch" element={<Cartpage />} />
-        <Route path="/favourite" element={<Favourite />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
-      <Footer />
-    </>
-  );
-}
+    <div className="max-w-Container mx-auto my-5">
+      <div className="mb-20">
+        <DetailsTop />
+      </div>
+      <div className="flex justify-between ">
+        <div className="ml-[250px]">
+          <DetailTitle />
+          <div className="">
+            <Practice />
+          </div>
+        </div>
 
-export default App;
+        <div>
+          <DetailsLeft />
+        </div>
+      </div>
+      <div className="mt-10">
+        <BestSellerSlider />
+      </div>
+    </div>
+  );
+};
+
+export default Details;

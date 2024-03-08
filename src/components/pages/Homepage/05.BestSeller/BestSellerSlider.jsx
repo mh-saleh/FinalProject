@@ -42,38 +42,25 @@ const BestSellerSlider = () => {
   };
 
   return (
-    <section className="max-w-Container mx-auto my-20">
-      <div className="flex justify-between mb-16 items-end ">
-        <div className="flex justify-between ">
-          <div className=" pr-[7px] flex-col justify-center items-start gap-4 inline-flex">
-            <div className="text-slate-800 text-[40px] font-bold font-['Poppins']">
-              Best Seller
-            </div>
-            <div className="text-slate-600 text-2xl font-normal font-['Poppins'] leading-9">
-              Sost Brilliant reasons Entrada should be your one-stop-shop!
-            </div>
+    <section className="mx-2 px-[1vw]">
+      {" "}
+      <div className="flex justify-between items-start">
+        <div className=" pr-[7px] flex-col justify-center items-start gap-4 inline-flex">
+          <div className="text-slate-800 text-[40px] font-bold font-['Poppins']">
+            Best Seller
+          </div>
+          <div className="text-slate-600 text-2xl font-normal font-['Poppins'] leading-9">
+            Sost Brilliant reasons Entrada should be your one-stop-shop!
           </div>
         </div>
-        <div className="btn-div  flex  gap-4  ">
-          <button className="btn-left" onClick={() => handleScroll(-200)}>
-            <LeftArrow />
-          </button>
-          <button className="btn-right" onClick={() => handleScroll(200)}>
-            <RightArrow />
-          </button>
+        <div className="pt-3 w-[188px] h-[60px] bg-[#28B0A6] inline-block px-3 rounded-[40px] flex-shrink-0 self-end">
+          <div className="text-center text-white text-2xl font-normal font-['Poppins']">
+            Check All
+          </div>
         </div>
       </div>
-      <div
-        className="overflow-x-auto hideScrollbar  w-full min-w-screen relative"
-        onMouseDown={handleMouseDown}
-        onMouseMove={handleMouseMove}
-        onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseLeave}
-        ref={sliderRef}
-      >
-        <div className="flex gap-4">
-          <BestSeller />
-        </div>
+      <div className="mt-10">
+        <BestSeller />
       </div>
     </section>
   );

@@ -5,7 +5,7 @@ import PartThree from "./PartThree";
 
 const Other = () => {
   return (
-    <section>
+    <section className="px-[1vw]">
       <PartOne />
       <PartTwo />
       <PartThree />

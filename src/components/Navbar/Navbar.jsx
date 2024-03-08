@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <section className="max-w-Container mx-auto my-[50px] px-[1vw]">
+    <section className="max-w-Container mx-auto  px-[1vw] bg-transparent z-50 py-5 sticky w-[100%]">
       <div className="flex justify-between align-middle items-center flex-wrap">
         <div className="flex gap-x-12 flex-wrap">
           <h2 className="text-slate-800 text-[40px] font-semibold font-['Poppins']">
@@ -23,6 +23,11 @@ const Navbar = () => {
             <Link to={"/favourite"}>
               <div className=" text-slate-800 text-xl font-normal font-['Poppins'] leading-tight">
                 Favourite
+              </div>
+            </Link>
+            <Link to={"/details"}>
+              <div className=" text-slate-800 text-xl font-normal font-['Poppins'] leading-tight">
+                Details
               </div>
             </Link>
             <button>

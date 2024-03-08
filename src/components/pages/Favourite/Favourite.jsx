@@ -7,6 +7,7 @@ const Favourite = () => {
 
   return (
     <section className="my-10 max-w-[1600px] mx-auto">
+      {items.length === 0 && "Halum"}
       <div className="flex justify-center gap-3 flex-wrap">
         {items
           .filter((item) => {

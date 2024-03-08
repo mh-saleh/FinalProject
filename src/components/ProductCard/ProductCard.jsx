@@ -11,7 +11,7 @@ export default function ProductCard({ Index }) {
   let dispatch = useDispatch();
   let item = useSelector((state) => state.Cart.cartItems[Index]);
   return (
-    <div className="  max-w-[512px] h-[614px] relative  box-border">
+    <div className=" pt-1 pr-1 w-[512px] h-[614px] relative  box-border">
       <div className="w-[480px] h-[256px] bg-[rgba(108,117,125,0.2)] bg-[url(../assets/images/101ec05d31c32841a596b7c1a9b0d755abacabcc.png)] bg-cover bg-no-repeat rounded-[20px] relative z-[23] mt-[16px] mr-0 mb-0 ml-[16px]" />
       <div className="w-[354px] h-[52px] relative z-[1] mt-[258px] mr-0 mb-0 ml-[32px]">
         <div className="w-[80px] h-[20px] relative z-[8] mt-0 mr-0 mb-0 ml-0">

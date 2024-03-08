@@ -41,7 +41,7 @@ const TrendingSlider = () => {
   };
 
   return (
-    <section className="max-w-Container mx-auto my-20">
+    <section className="max-w-Container mx-auto my-20 px-[1vw]">
       <div className="flex justify-between mb-16 items-end ">
         <div className="flex justify-between ">
           <div className=" pr-[7px] flex-col justify-center items-start gap-4 inline-flex">

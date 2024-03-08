@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div className="max-w-Container mx-auto">
       <AutoImageSlider images={halum} interval={5000} />
-      <div className="w-[1200px] p-4 h-[112px]  bg-white rounded-lg relative left-[175px] top-[-100px]">
+      <div className="w-[1230px] py-4 px-6 h-[170px]  bg-white rounded-xl shadow-lg relative left-[175px] top-[-100px]">
         <div>
           <SearchSection />
         </div>

@@ -36,7 +36,7 @@ const SearchSection = () => {
   return (
     <div
       id="HeroRoot"
-      className="flex flex-col lg:flex-row  justify-between  font-['Poppins'] items-start "
+      className="flex flex-col lg:flex-row  justify-between  font-['Poppins'] items-start  "
     >
       <div className="flex flex-row  mt-4 justify-between lg:gap-[97px]  lg:w-3/4 items-center ">
         <div className="flex flex-col gap-4 w-full lg:w-1/3 items-start mt-px mr-1 ">
