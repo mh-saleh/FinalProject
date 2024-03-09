@@ -11,6 +11,7 @@ import Homepage from "./components/pages/Homepage/Homepage";
 import Error from "./components/pages/Error/Error";
 import Details from "./components/pages/Details/Details";
 function App() {
+  console.log(Items);
   return (
     <>
       <Navbar />
@@ -21,6 +22,9 @@ function App() {
         <Route path="/shop#inputSearch" element={<Cartpage />} />
         <Route path="/favourite" element={<Favourite />} />
         <Route path="*" element={<Error />} />
+        {Items.map((item) => (
+          <Route path={`/product${item.id}`} element={<Details />} />
+        ))}
       </Routes>
       <Footer />
     </>

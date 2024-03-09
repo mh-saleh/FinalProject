@@ -38,7 +38,7 @@ const Cartpage = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mt-10">
         <BestSeller />
       </div>
     </section>

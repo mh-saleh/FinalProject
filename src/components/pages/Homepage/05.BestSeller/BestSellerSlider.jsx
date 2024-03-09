@@ -53,7 +53,7 @@ const BestSellerSlider = () => {
             Sost Brilliant reasons Entrada should be your one-stop-shop!
           </div>
         </div>
-        <div className="pt-3 w-[188px] h-[60px] bg-[#28B0A6] inline-block px-3 rounded-[40px] flex-shrink-0 self-end">
+        <div className="pt-3 cursor-pointer w-[188px] h-[60px] bg-[#28B0A6] inline-block px-3 rounded-[40px] flex-shrink-0 self-end">
           <div className="text-center text-white text-2xl font-normal font-['Poppins']">
             Check All
           </div>

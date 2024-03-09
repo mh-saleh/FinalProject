@@ -11,7 +11,7 @@ import MultiRangeSlider from "./PriceSlider";
 const SideBar = () => {
   let [minValue, setMinValue] = useState(0);
   let [maxValue, setMaxValue] = useState(0);
-  console.log(maxValue, minValue);
+
   let dispatch = useDispatch();
 
   function hadleChange(event) {

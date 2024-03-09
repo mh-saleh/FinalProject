@@ -6,6 +6,7 @@ import Items from "../../assets/ProductList/products";
 import { useDispatch, useSelector } from "react-redux";
 
 import { updateWishlist } from "../../Redux/slices/addToCart";
+import { Link } from "react-router-dom";
 
 export default function ProductCard({ Index }) {
   let dispatch = useDispatch();
@@ -49,7 +50,7 @@ export default function ProductCard({ Index }) {
         <div>
           {" "}
           <span className="block h-[36px] font-['Poppins'] text-[24px] font-semibold leading-[36px] text-[#1d293f] tracking-[-0.38px] relative text-left whitespace-nowrap z-[21] mt-0 mr-0 mb-0 ml-0">
-            {item.Name}
+            <Link to={`/product${item.id}`}>{item.Name}</Link>
           </span>
           <span className="block h-[24px] font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#99a3ad] tracking-[0.5px] relative text-left whitespace-nowrap z-[22] mt-[8px] mr-0 mb-0 ml-0">
             Hiking Tour | Stoke on Trent
