@@ -25,11 +25,7 @@ const Navbar = () => {
                 Favourite
               </div>
             </Link>
-            <Link to={"/details"}>
-              <div className=" text-slate-800 text-xl font-normal font-['Poppins'] leading-tight">
-                Details
-              </div>
-            </Link>
+
             <button>
               <Link to={"/shop#inputSearch"}>
                 <svg

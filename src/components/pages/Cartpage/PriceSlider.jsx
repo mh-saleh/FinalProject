@@ -80,14 +80,10 @@ const MultiRangeSlider = ({ min, max, onChange }) => {
         <div className="slider__track bg-gray-400 rounded h-5 absolute w-full"></div>
         <div
           ref={range}
-          className="slider__range bg-teal-400 rounded z-2 absolute"
+          className="slider__range bg-[#28B0A6] rounded z-2 absolute"
         ></div>
-        <div className="slider__left-value text-gray-300 text-xs absolute mt-20 left-6">
-          {minVal}
-        </div>
-        <div className="slider__right-value text-gray-300 text-xs absolute mt-20 right-0">
-          {maxVal}
-        </div>
+        <div className="slider__left-value text-gray-300 text-xs absolute mt-20 left-6"></div>
+        <div className="slider__right-value text-gray-300 text-xs absolute mt-20 right-0"></div>
       </div>
     </div>
   );

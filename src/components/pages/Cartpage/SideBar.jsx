@@ -94,8 +94,10 @@ const SideBar = () => {
       </div>
       <div className="mt-5">
         <div className="main-container w-[328px] h-[141px] text-[0px] relative mx-auto my-0">
-          <span className="block h-[20px] font-['Poppins'] text-[16px] font-normal leading-[20px] text-[#546179] relative text-left whitespace-nowrap z-[8] mt-0 mr-0 mb-0 ml-0">
-            Price Range
+          <span className="block h-[20px] font-['Poppins'] text-[16px] font-normal leading-[20px] text-[#546179] relative text-left whitespace-nowrap z-[8] right-5 mt-0 mr-0 mb-0 ml-0">
+            <h5 className="text-slate-600 text-base font-medium font-['Poppins'] leading-tight  mb-3">
+              Price Range
+            </h5>
           </span>
           <div className="absolute top-[60px]">
             <MultiRangeSlider
