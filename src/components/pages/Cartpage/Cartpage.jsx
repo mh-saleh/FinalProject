@@ -34,7 +34,7 @@ const Cartpage = () => {
         </div>
         <div className="">
           <div>
-            <PaginatedItems items={items} itemsPerPage={9} />
+            <PaginatedItems items={items} itemsPerPage={10} />
           </div>
         </div>
       </div>

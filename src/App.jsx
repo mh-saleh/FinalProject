@@ -11,7 +11,7 @@ import Homepage from "./components/pages/Homepage/Homepage";
 import Error from "./components/pages/Error/Error";
 import Details from "./components/pages/Details/Details";
 function App() {
-  console.log(Items);
+  console.log(Items[0].Details_Image);
   return (
     <>
       <Navbar />
@@ -23,7 +23,10 @@ function App() {
         <Route path="/favourite" element={<Favourite />} />
         <Route path="*" element={<Error />} />
         {Items.map((item) => (
-          <Route path={`/product${item.id}`} element={<Details />} />
+          <Route
+            path={`/product${item.id}`}
+            element={<Details Index={item.id} />}
+          />
         ))}
       </Routes>
       <Footer />

@@ -54,7 +54,7 @@ const SideBar = () => {
           <div className=" gap-2 flex">
             <div>
               <input
-                name="  "
+                name="Awayfromthechaos"
                 onChange={hadleChange}
                 type="checkbox"
                 className="w-6 h-6 checked:bg-teal-500 rounded-lg"

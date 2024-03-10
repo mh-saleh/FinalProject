@@ -17,11 +17,11 @@ import Gallery from "./Gallery";
 import DetailsTop from "./DetailsTop";
 import BestSellerSlider from "../Homepage/05.BestSeller/BestSellerSlider";
 
-const Details = () => {
+const Details = ({ Index }) => {
   return (
     <div className="max-w-Container mx-auto my-5">
       <div className="mb-20">
-        <DetailsTop />
+        <DetailsTop Index={Index} />
       </div>
       <div className="flex justify-between ">
         <div className="ml-[250px]">
