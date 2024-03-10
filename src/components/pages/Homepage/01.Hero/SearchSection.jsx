@@ -6,6 +6,7 @@ import DownArrow from "../../../../assets/images/Homepage/downarrow.png";
 import Search from "../../../../assets/images/Homepage/search.png";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { Link } from "react-router-dom";
 
 const SearchSection = () => {
   let [mew, setMew] = useState([]);
@@ -112,6 +113,10 @@ const SearchSection = () => {
             </label>
           </div>
         </div>
+
+        <div className="bg-red-400 h-[112px] w-[112px]"></div>
+      </div>
+      <div className="mt-4 ">
         <Link to={"/shop#inputSearch"}>
           <img src={Search} alt="" className="cursor-pointer" />
         </Link>
