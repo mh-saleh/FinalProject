@@ -112,7 +112,9 @@ const SearchSection = () => {
             </label>
           </div>
         </div>
-        <img src={Search} alt="" className="cursor-pointer" />
+        <Link to={"/shop#inputSearch"}>
+          <img src={Search} alt="" className="cursor-pointer" />
+        </Link>
       </div>
     </div>
   );
