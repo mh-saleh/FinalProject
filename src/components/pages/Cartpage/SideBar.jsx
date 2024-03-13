@@ -31,7 +31,7 @@ const SideBar = () => {
                 name="ChildFriendly"
                 onChange={hadleChange}
                 type="checkbox"
-                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
+                className="w-6 h-6   "
               />
             </div>
             <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
@@ -158,79 +158,7 @@ const SideBar = () => {
           <div className=" gap-2 flex">
             <div>
               <input
-                name="  "
-                onChange={hadleChange}
-                type="checkbox"
-                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
-              />
-            </div>
-            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
-              4 Hours to 1 Day
-            </div>
-          </div>
-          <div className=" gap-2 flex">
-            <div>
-              <input
-                name="EpicChallenges"
-                onChange={hadleChange}
-                type="checkbox"
-                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
-              />
-            </div>
-            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
-              1 to 3 Days
-            </div>
-          </div>
-          <div className=" gap-2 flex">
-            <div>
-              <input
-                name="VirtualExperiences"
-                onChange={hadleChange}
-                type="checkbox"
-                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
-              />
-            </div>
-            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
-              3 Days or More
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="mt-5">
-        <h5 className="text-slate-600 text-base font-medium font-['Poppins'] leading-tight mb-3">
-          Duration
-        </h5>
-        <div className="flex flex-col gap-4">
-          <div className=" gap-2 flex">
-            <div>
-              <input
-                name="ChildFriendly"
-                onChange={hadleChange}
-                type="checkbox"
-                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
-              />
-            </div>
-            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
-              Upto 1 Hour
-            </div>
-          </div>
-          <div className=" gap-2 flex">
-            <div>
-              <input
-                name="Hiking"
-                onChange={hadleChange}
-                type="checkbox"
-                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
-              />
-            </div>
-            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
-              1 to 4 Hours
-            </div>
-          </div>
-          <div className=" gap-2 flex">
-            <div>
-              <input
-                name="  "
+                name="Awayfromthechaos"
                 onChange={hadleChange}
                 type="checkbox"
                 className="w-6 h-6 checked:bg-teal-500 rounded-lg"
@@ -342,6 +270,79 @@ const SideBar = () => {
       </div>
       <div className="mt-5">
         <h5 className="text-slate-600 text-base font-medium font-['Poppins'] leading-tight mb-3">
+          Age Group
+        </h5>
+        <div className="flex flex-col gap-4">
+          <div className=" gap-2 flex">
+            <div>
+              <input
+                name="ChildFriendly"
+                onChange={hadleChange}
+                type="checkbox"
+                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
+              />
+            </div>
+            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
+              1 & Up
+            </div>
+          </div>
+          <div className=" gap-2 flex">
+            <div>
+              <input
+                name="Hiking"
+                onChange={hadleChange}
+                type="checkbox"
+                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
+              />
+            </div>
+            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
+              3 & Up
+            </div>
+          </div>
+          <div className=" gap-2 flex">
+            <div>
+              <input
+                name="Awayfromthechaos"
+                onChange={hadleChange}
+                type="checkbox"
+                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
+              />
+            </div>
+            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
+              7 & Up
+            </div>
+          </div>
+          <div className=" gap-2 flex">
+            <div>
+              <input
+                name="EpicChallenges"
+                onChange={hadleChange}
+                type="checkbox"
+                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
+              />
+            </div>
+            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
+              13 & Up
+            </div>
+          </div>
+          <div className=" gap-2 flex">
+            <div>
+              <input
+                name="VirtualExperiences"
+                onChange={hadleChange}
+                type="checkbox"
+                className="w-6 h-6 checked:bg-teal-500 rounded-lg"
+              />
+            </div>
+            <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
+              18 & Up
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-5">
+        <h5 className="text-slate-600 text-base font-medium font-['Poppins'] leading-tight mb-3">
           Specials
         </h5>
         <div className="flex flex-col gap-4">
@@ -355,13 +356,13 @@ const SideBar = () => {
               />
             </div>
             <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
-              Discounted deals
+              Discounted Deals
             </div>
           </div>
           <div className=" gap-2 flex">
             <div>
               <input
-                name="Hiking"
+                name="FreeCancellations"
                 onChange={hadleChange}
                 type="checkbox"
                 className="w-6 h-6 checked:bg-teal-500 rounded-lg"
@@ -374,7 +375,7 @@ const SideBar = () => {
           <div className=" gap-2 flex">
             <div>
               <input
-                name="  "
+                name="PrivateGroups"
                 onChange={hadleChange}
                 type="checkbox"
                 className="w-6 h-6 checked:bg-teal-500 rounded-lg"
@@ -387,20 +388,20 @@ const SideBar = () => {
           <div className=" gap-2 flex">
             <div>
               <input
-                name="EpicChallenges"
+                name="NewOnEntrada"
                 onChange={hadleChange}
                 type="checkbox"
                 className="w-6 h-6 checked:bg-teal-500 rounded-lg"
               />
             </div>
             <div className="text-neutral-800 text-base font-normal font-['Poppins'] tracking-wide">
-              New on Entrada
+              New On Entrada
             </div>
           </div>
           <div className=" gap-2 flex">
             <div>
               <input
-                name="VirtualExperiences"
+                name="EntradaSpecials"
                 onChange={hadleChange}
                 type="checkbox"
                 className="w-6 h-6 checked:bg-teal-500 rounded-lg"
